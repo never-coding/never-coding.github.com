@@ -5,7 +5,10 @@ permalink: /:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: false
-markdown: rdiscount
+markdown: redcarpet
+redcarpet:
+    extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
+
 paginate: 6
 description_length: 200
 
