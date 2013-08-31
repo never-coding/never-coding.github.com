@@ -3,7 +3,7 @@ layout: post
 title: "JS闭包定义"
 description: ""
 category: 
-tags: []
+tags: ['闭包']
 ---
 {% include JB/setup %}
 
