@@ -1,7 +1,7 @@
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
-  max-width: 1000px; }
+  max-width: 80%; }
 
 .container-narrow > hr {
   margin: 30px 0; }
@@ -66,6 +66,9 @@
 
 a{color:#000;text-decoration:none;}
 
+.row-fluid div.post-list.row {
+  margin-left:0;
+}
 .post-list h2{
   border-bottom: 1px solid #eee;
   margin: 50px 0 20px 0;
