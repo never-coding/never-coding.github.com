@@ -9,5 +9,5 @@ tags: []
 
   ```coffeescript
   func = (x,y)->
-    x + y
+    return x + y
   ```
