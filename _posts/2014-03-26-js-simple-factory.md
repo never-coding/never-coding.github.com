@@ -17,11 +17,11 @@ tags: ['js', '设计模式']
 这个库里提供了几种ajax请求的方式，包括xhr对象的get, post, 也包括跨域用的jsonp和iframe. 为了方便使用, 这几种方式都抽象到了同一个接口里面.
 
 ```js
-var request1 = Request('cgi.xx.com/xxx' , ''get' );
+var request1 = Request('cgi.xx.com/xxx' , 'get' );
 request1.start();
 request1.done( fn );
 
-var request2 = Request('cgi.xx.com/xxx' , ''jsonp' );
+var request2 = Request('cgi.xx.com/xxx' , 'jsonp' );
 request2.start();
 request2.done( fn );
 ```
