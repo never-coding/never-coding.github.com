@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "JS 单例模式"
+title: "JS设计模式-单例模式"
 description: ""
 category: 
 tags: ['js', '设计模式']
 ---
 {% include JB/setup %}
 
-如果你懂闭包，那么直接上示例了，如果不懂，最好先了解下闭包的概念
-代码摘自网络
+如果你懂闭包，那么直接上示例了，如果不懂，最好先了解下闭包的概念。
+
+代码摘自网络 http://www.alloyteam.com/2012/10/common-javascript-design-patterns/ 如果感觉下面的代码太晦涩，可以直接看连接中的文章，讲的很不错。
 
 ```js
 var createMask = function(){
