@@ -21,7 +21,7 @@ Error.__proto__ === Function.prototype   // true
 Date.__proto__ === Function.prototype    // true
 ```
 
-<!-- more -->
+<!--more-->
 JavaScript中有内置(build-in)构造器/对象共计12个（ES5中新加了JSON），这里列举了可访问的8个构造器。剩下如Global不能直接访问，Arguments仅在函数调用时由JS引擎创建，Math，JSON是以对象形式存在的，无需new。它们的__proto__是Object.prototype。如下
 
 ```js
