@@ -20,6 +20,7 @@ var createMask = function(){
 }()
 ```
 
+<!--more-->
 通用版
 
 ```js

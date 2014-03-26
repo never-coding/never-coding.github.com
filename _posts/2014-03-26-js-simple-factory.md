@@ -13,6 +13,7 @@ tags: ['js', '设计模式']
 简单工厂模式在创建ajax对象的时候也非常有用.
 之前我写了一个处理ajax异步嵌套的库，地址在 https://github.com/AlloyTeam/DanceRequest
 
+<!--more-->
 这个库里提供了几种ajax请求的方式，包括xhr对象的get, post, 也包括跨域用的jsonp和iframe. 为了方便使用, 这几种方式都抽象到了同一个接口里面.
 
 ```js
