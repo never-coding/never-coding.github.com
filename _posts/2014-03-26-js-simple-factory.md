@@ -37,7 +37,7 @@ Request实际上就是一个工厂方法, 至于到底是产生xhr的实例, 还
 
   function ObjectFactory() {
     var obj = {}, Constructor = Array.prototype.shift.call( arguments );
-    obj.__proto__ =  typeof Constructor .prototype === 'number'  ? Object.prototype : Constructor.prototype;
+    obj.__proto__ = typeof Constructor .prototype === 'number' ? Object.prototype : Constructor.prototype;
     var ret = Constructor.apply( obj, arguments );
     return typeof ret === 'object' ? ret : obj;
   }

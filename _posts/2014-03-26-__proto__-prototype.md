@@ -7,7 +7,7 @@ tags: ['js']
 ---
 {% include JB/setup %}
 
-# 一、所有构造器/函数的__proto__都指向Function.prototype，它是一个空函数（Empty function）
+## 一、所有构造器/函数的__proto__都指向Function.prototype，它是一个空函数（Empty function）
 
 ```js
 Number.__proto__ === Function.prototype  // true
@@ -21,6 +21,7 @@ Error.__proto__ === Function.prototype   // true
 Date.__proto__ === Function.prototype    // true
 ```
 
+<!-- more -->
 JavaScript中有内置(build-in)构造器/对象共计12个（ES5中新加了JSON），这里列举了可访问的8个构造器。剩下如Global不能直接访问，Arguments仅在函数调用时由JS引擎创建，Math，JSON是以对象形式存在的，无需new。它们的__proto__是Object.prototype。如下
 
 ```js
@@ -80,7 +81,7 @@ Object.prototype.__proto__ === null  // true
 
  
 
-# 二、所有对象的__proto__都指向其构造器的prototype
+## 二、所有对象的__proto__都指向其构造器的prototype
 
 上面测试了所有内置构造器及自定义构造器的__proto__，下面再看看所有这些构造器的实例对象的__proto__指向谁？
 
