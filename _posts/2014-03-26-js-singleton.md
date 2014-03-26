@@ -20,6 +20,7 @@ var createMask = function(){
 ```
 
 通用版
+
 ```js
 var singleton = function( fn ){
     var result;
