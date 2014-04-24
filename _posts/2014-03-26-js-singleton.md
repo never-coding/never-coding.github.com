@@ -38,3 +38,26 @@ var createMask = singleton(
 );
 
 ```
+构造函数版
+
+```js
+function Person(){    
+  //缓存实例  
+  var instance=this;  
+  //重写构造函数  
+  Person=function(){  
+      return instance;  
+  }  
+  //保留原型属性  
+  Person.prototype=this;  
+  //实例  
+  instance=new Person();  
+  //重置构造函数引用  
+  instance.constructor=Person;  
+
+  //其他初始化  
+  instance.createTime=new Date();  
+    
+  return instance;  
+}
+```
