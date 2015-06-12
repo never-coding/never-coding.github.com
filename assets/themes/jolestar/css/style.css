@@ -1,3 +1,15 @@
+body{
+  line-height: 1.5em;
+}
+p{
+  margin: 0 0 1.2em;
+}
+cite{
+  color: #999;
+}
+.post-list-summary p {
+  color: #777;
+}
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
