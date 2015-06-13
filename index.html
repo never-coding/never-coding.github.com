@@ -5,7 +5,6 @@ tagline: Ansel's blog
 ---
 {% include JB/setup %}
 <div class="row-fluid" style="margin-top:-45px">
-    <div class="span12" display="none"></div>
   {% for post in paginator.posts %}
         {% capture summary %}{{post.content | split:'<!--more-->' |first }}{% endcapture%}
     <div class="span12 row post-list">
